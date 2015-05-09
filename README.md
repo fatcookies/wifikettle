@@ -1,7 +1,7 @@
 # Adam's WiFi kettle software
 
 ### Dependencies
-* Raspberry Pi
+* Raspberry Pi with an active WiFi/internet connection
 * [WebIOPi](https://code.google.com/p/webiopi/)
 * OPTIONAL: The kettle hardware/relays etc
 
@@ -17,7 +17,9 @@
 
 4. You can then either add WebIOPi to your startup services with the following command ``` sudo update-rc.d /etc/init.d/webiopi defaults ``` or as a one off: ``` sudo services webiopi start ```
 
-5. Brew your kettle remotely and have a lovely cup of tea. (I do not endorse making cofee using an electric kettle!)
+5. If you are running a graphical session on your Pi you can then access the page at http://127.0.0.1 , otherwise whatever the local IP address of your Pi is.
+
+6. Brew your kettle remotely and have a lovely cup of tea. (I do not endorse making cofee using an electric kettle!)
 
 
 ### Screenshots
